@@ -578,7 +578,7 @@ export default {
 
 				if (result.shouldPay) {
 					uni.redirectTo({
-						url: '/pages/payment/wx-js-pay?listNo=' + result.listNo
+						url: '/pages/ticket/wx-js-pay?listNo=' + result.listNo
 					});
 				} else {
 					uni.redirectTo({

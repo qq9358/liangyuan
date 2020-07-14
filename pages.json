@@ -7,40 +7,35 @@
 			}
 		}
 	}, {
-		"path": "pages/ticket/buy-ticket",
-		"style": {
-			"navigationBarTitleText": "提交订单"
-		}
-	}, {
-		"path": "pages/order/order",
+		"path": "pages/index/order",
 		"style": {
 			"navigationBarTitleText": "我的订单"
 		}
 	}, {
-		"path": "pages/member/member-center",
+		"path": "pages/index/member-center",
 		"style": {
 			"app-plus": {
 				"titleNView": false
 			}
 		}
-	},{
+	}, {
 		"path": "pages/member/my-integral",
 		"style": {
 			"navigationBarTitleText": "我的积分",
-			"navigationBarBackgroundColor":"#19a0f0",
+			"navigationBarBackgroundColor": "#19a0f0",
 			"navigationBarTextStyle": "white"
 		}
-	},{
+	}, {
 		"path": "pages/member/bind-member",
 		"style": {
 			"navigationBarTitleText": "会员绑定"
 		}
-	},{
+	}, {
 		"path": "pages/member/regist-member",
 		"style": {
 			"navigationBarTitleText": "会员注册"
 		}
-	},{
+	}, {
 		"path": "pages/member/my-card",
 		"style": {
 			"navigationBarTitleText": "我的会员卡"
@@ -49,7 +44,7 @@
 		"path": "pages/member/game-currency",
 		"style": {
 			"navigationBarTitleText": "我的游戏币",
-			"navigationBarBackgroundColor":"#19a0f0",
+			"navigationBarBackgroundColor": "#19a0f0",
 			"navigationBarTextStyle": "white"
 		}
 	}, {
@@ -57,18 +52,23 @@
 		"style": {
 			"navigationBarTitleText": "修改资料"
 		}
-	},{
-		"path": "pages/payment/wx-js-pay",
-		"style": {
-			"navigationBarTitleText": "订单支付"
-		}
 	}, {
 		"path": "pages/order/order-detail",
 		"style": {
 			"navigationBarTitleText": "订单详情",
 			"enablePullDownRefresh": true,
-			"navigationBarBackgroundColor":"#19a0f0",
+			"navigationBarBackgroundColor": "#19a0f0",
 			"navigationBarTextStyle": "white"
+		}
+	}, {
+		"path": "pages/ticket/wx-js-pay",
+		"style": {
+			"navigationBarTitleText": "订单支付"
+		}
+	}, {
+		"path": "pages/ticket/buy-ticket",
+		"style": {
+			"navigationBarTitleText": "提交订单"
 		}
 	}],
 	"easycom": {
@@ -87,25 +87,93 @@
 		"backgroundColor": "#FFFFFF"
 	},
 	"tabBar": {
-	    "color": "#7A7E83",
-	    "selectedColor": "#099fde",
-	    "borderStyle": "black",
-	    "backgroundColor": "#ffffff",
-	    "list": [{
-	        "pagePath": "pages/index/index",
-	        "iconPath": "static/images/tabbar/home.png",
-	        "selectedIconPath": "static/images/tabbar/home-blue.png",
-	        "text": "主页"
-	    }, {
-	        "pagePath": "pages/order/order",
-	        "iconPath": "static/images/tabbar/cate.png",
-	        "selectedIconPath": "static/images/tabbar/cate-blue.png",
-	        "text": "订单"
-	    }, {
-	        "pagePath": "pages/member/member-center",
-	        "iconPath": "static/images/tabbar/user.png",
-	        "selectedIconPath": "static/images/tabbar/user-blue.png",
-	        "text": "我"
-	    }]
-	}
+		"color": "#7A7E83",
+		"selectedColor": "#099fde",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/images/tabbar/home.png",
+			"selectedIconPath": "static/images/tabbar/home-blue.png",
+			"text": "主页"
+		}, {
+			"pagePath": "pages/index/order",
+			"iconPath": "static/images/tabbar/cate.png",
+			"selectedIconPath": "static/images/tabbar/cate-blue.png",
+			"text": "订单"
+		}, {
+			"pagePath": "pages/index/member-center",
+			"iconPath": "static/images/tabbar/user.png",
+			"selectedIconPath": "static/images/tabbar/user-blue.png",
+			"text": "我"
+		}]
+	},
+	"subPackages": [{
+		"member": "pages/member",
+		"pages": [
+			{
+				"path": "my-integral",
+				"style": {
+					"navigationBarTitleText": "我的积分",
+					"navigationBarBackgroundColor": "#19a0f0",
+					"navigationBarTextStyle": "white"
+				}
+			}, {
+				"path": "bind-member",
+				"style": {
+					"navigationBarTitleText": "会员绑定"
+				}
+			}, {
+				"path": "regist-member",
+				"style": {
+					"navigationBarTitleText": "会员注册"
+				}
+			}, {
+				"path": "my-card",
+				"style": {
+					"navigationBarTitleText": "我的会员卡"
+				}
+			}, {
+				"path": "game-currency",
+				"style": {
+					"navigationBarTitleText": "我的游戏币",
+					"navigationBarBackgroundColor": "#19a0f0",
+					"navigationBarTextStyle": "white"
+				}
+			}, {
+				"path": "edit-data",
+				"style": {
+					"navigationBarTitleText": "修改资料"
+				}
+			}
+		]
+	},{
+		"order": "pages/order",
+		"pages": [
+			{
+				"path": "order-detail",
+				"style": {
+					"navigationBarTitleText": "订单详情",
+					"enablePullDownRefresh": true,
+					"navigationBarBackgroundColor": "#19a0f0",
+					"navigationBarTextStyle": "white"
+				}
+			}
+		]
+	},{
+		"ticket": "pages/ticket",
+		"pages": [
+			{
+				"path": "pages/ticket/wx-js-pay",
+				"style": {
+					"navigationBarTitleText": "订单支付"
+				}
+			}, {
+				"path": "pages/ticket/buy-ticket",
+				"style": {
+					"navigationBarTitleText": "提交订单"
+				}
+			}
+		]
+	}]
 }

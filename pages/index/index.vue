@@ -25,8 +25,8 @@
 		<view class="scenic-ext" @click="onIntroduction">
 			<view>
 				<view class="scenic-ext-title">
-					<span v-if="scenic.openText">开放时间</span>
-					<span>景区特色</span>
+					<span v-if="scenic.openText"></span>
+					<span>{{ testI18n }}景区特色</span>
 					<span>景区简介</span>
 				</view>
 				<view v-if="scenic.openText" class="scenic-ext-word">{{ scenic.openText }}</view>
@@ -159,7 +159,13 @@ export default {
 			images: []
 		};
 	},
+	computed: {
+		testI18n() {
+			return this.$t('tabBar.index0');
+		}
+	},
 	async onLoad() {
+		this.$i18n.locale = 'en';
 		/* #ifndef MP */
 		await memberService.loginFromWeChatAsync({
 			code: '',
@@ -242,8 +248,8 @@ export default {
 			});
 		},
 		onBuy(ticketType) {
-			this.selectedTicketType = ticketType
-			if(!this.memberSelect){
+			this.selectedTicketType = ticketType;
+			if (!this.memberSelect) {
 				this.showMemberSelect = true;
 			} else {
 				this.toBuy();
@@ -290,15 +296,15 @@ export default {
 				url: '/pages/ticket/ticket-type'
 			});
 		},
-		onDescriptionClose(){
+		onDescriptionClose() {
 			this.showDescription = false;
 		},
-		onMemberSelectClose(){
+		onMemberSelectClose() {
 			this.showMemberSelect = false;
 			this.memberSelect = true;
 			this.toBuy();
 		},
-		toBuy(){
+		toBuy() {
 			if (this.selectedTicketType.shouldReadDescription) {
 				this.onShowDescription(this.selectedTicketType);
 			} else {

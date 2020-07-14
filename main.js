@@ -7,6 +7,7 @@ import tui from './utils/httpRequest.js';
 import router from './router'
 import { RouterMount } from 'uni-simple-router'
 import VueJsonp from 'vue-jsonp'
+import i18n from "./common/i18n/i18n.js";
 
 Vue.config.productionTip = false
 // #ifdef H5
@@ -15,11 +16,13 @@ window.QQmap = null;
 Vue.prototype.tui = tui
 Vue.prototype.$eventHub = Vue.prototype.$eventHub || new Vue()
 Vue.prototype.$store = store
+Vue.prototype._i18n = i18n;
 Vue.use(VueJsonp);
 App.mpType = 'app'
 
 const app = new Vue({
 	store,
+	i18n,
 	...App
 })
 

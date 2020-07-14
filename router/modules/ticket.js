@@ -10,6 +10,12 @@ const ticket = [{
 	meta: {
 		title: '商品列表'
 	}
+},{
+	path: '/pages/ticket/wx-js-pay',
+	name: 'wx-js-pay',
+	meta: {
+		title: '微信支付'
+	}
 }];
 
 export default ticket;

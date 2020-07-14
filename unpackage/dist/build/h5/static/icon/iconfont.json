@@ -6,6 +6,139 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "587169",
+      "name": "warning",
+      "font_class": "warning",
+      "unicode": "e836",
+      "unicode_decimal": 59446
+    },
+    {
+      "icon_id": "212332",
+      "name": "group",
+      "font_class": "group1",
+      "unicode": "e753",
+      "unicode_decimal": 59219
+    },
+    {
+      "icon_id": "249347",
+      "name": "idcard",
+      "font_class": "idcard",
+      "unicode": "e9a7",
+      "unicode_decimal": 59815
+    },
+    {
+      "icon_id": "586842",
+      "name": "diamond-24",
+      "font_class": "diamond24",
+      "unicode": "e6fc",
+      "unicode_decimal": 59132
+    },
+    {
+      "icon_id": "648145",
+      "name": "LC_icon_edit_line_1",
+      "font_class": "LC_icon_edit_line_1",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
+      "icon_id": "1284210",
+      "name": "refund",
+      "font_class": "refund",
+      "unicode": "e7a6",
+      "unicode_decimal": 59302
+    },
+    {
+      "icon_id": "4743172",
+      "name": "讲解",
+      "font_class": "neirongjiangjie",
+      "unicode": "e700",
+      "unicode_decimal": 59136
+    },
+    {
+      "icon_id": "8760092",
+      "name": "document",
+      "font_class": "document",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "12260374",
+      "name": "MPIS-StatisticalAnalysis",
+      "font_class": "MPIS-StatisticalAnalysis",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "12761602",
+      "name": "fapiao",
+      "font_class": "fapiao",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "12820185",
+      "name": "统计分析",
+      "font_class": "tongjifenxi",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "12842640",
+      "name": "w_ticket",
+      "font_class": "w_ticket",
+      "unicode": "e661",
+      "unicode_decimal": 58977
+    },
+    {
+      "icon_id": "15388469",
+      "name": "纸票检票",
+      "font_class": "zhipiaojianpiao",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "1621514",
+      "name": "更多",
+      "font_class": "gengduo",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "661171",
+      "name": "add",
+      "font_class": "add",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "848747",
+      "name": "more",
+      "font_class": "more",
+      "unicode": "e656",
+      "unicode_decimal": 58966
+    },
+    {
+      "icon_id": "490202",
+      "name": "group",
+      "font_class": "group",
+      "unicode": "ebae",
+      "unicode_decimal": 60334
+    },
+    {
+      "icon_id": "8174288",
+      "name": "家庭",
+      "font_class": "jiating",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "13896032",
+      "name": "person",
+      "font_class": "person",
+      "unicode": "e788",
+      "unicode_decimal": 59272
+    },
+    {
       "icon_id": "2766672",
       "name": "Member",
       "font_class": "Member",

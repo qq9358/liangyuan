@@ -191,7 +191,7 @@ const tui = {
 	href(url, isVerify) {
 		if (isVerify && !tui.isLogin()) {
 			uni.navigateTo({
-				url: '/pages/common/login/login'
+				url: '/pages/member/login'
 			})
 		} else {
 			uni.navigateTo({

@@ -1,22 +1,22 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/ticket/buy-ticket",
-    "pages/ticket/ticket-type",
-    "pages/order/order",
-    "pages/member/member-center",
-    "pages/member/course-search",
+    "pages/index/order",
+    "pages/index/member-center",
     "pages/member/my-integral",
-    "pages/member/message-list",
-    "pages/payment/wx-js-pay",
+    "pages/member/bind-member",
+    "pages/member/regist-member",
+    "pages/member/my-card",
+    "pages/member/game-currency",
+    "pages/member/edit-data",
     "pages/order/order-detail",
-    "pages/member/my-ticket",
-    "pages/member/enroll-face"
+    "pages/ticket/wx-js-pay",
+    "pages/ticket/buy-ticket"
   ],
   "subPackages": [],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "冰块管理系统",
+    "navigationBarTitleText": "不一样的星球",
     "navigationBarBackgroundColor": "#ffffff",
     "backgroundColor": "#FFFFFF"
   },
@@ -33,13 +33,13 @@
         "text": "主页"
       },
       {
-        "pagePath": "pages/order/order",
+        "pagePath": "pages/index/order",
         "iconPath": "static/images/tabbar/cate.png",
         "selectedIconPath": "static/images/tabbar/cate-blue.png",
         "text": "订单"
       },
       {
-        "pagePath": "pages/member/member-center",
+        "pagePath": "pages/index/member-center",
         "iconPath": "static/images/tabbar/user.png",
         "selectedIconPath": "static/images/tabbar/user-blue.png",
         "text": "我"

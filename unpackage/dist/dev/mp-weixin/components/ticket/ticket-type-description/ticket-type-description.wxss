@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/**
+ * scss预处理 内置的常用样式变量
+ * 后期项目会考虑使用scss
+*/
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.description.data-v-38c28a06 {
+  background-color: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+.description-title.data-v-38c28a06 {
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  position: fixed;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.description-title .title-icon.data-v-38c28a06 {
+  padding: 6px 12px 0px 15px;
+}
+.description-title .title-icon .iconfont.data-v-38c28a06 {
+  color: #ff7d13;
+  font-size: 27px;
+}
+.description-close-btn.data-v-38c28a06 {
+  right: 0;
+  top: 0;
+  position: absolute;
+  color: #999;
+  width: 40px;
+  height: 40px;
+}
+.description-content.data-v-38c28a06 {
+  position: relative;
+  font-size: 15px;
+  overflow-y: auto;
+  box-sizing: border-box;
+  padding: 20px 0px 0px 0px;
+}
+.description-content-item.data-v-38c28a06 {
+  word-wrap: break-word;
+  word-break: normal;
+}
+.description-content-item ._h3.data-v-38c28a06 {
+  color: #333;
+  font-size: 100%;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+.description-content-item-text.data-v-38c28a06 {
+  margin-left: 15px;
+}
+.description-content-item.data-v-38c28a06 ._img {
+  max-width: 100% !important;
+}
+.description-content-title.data-v-38c28a06 {
+  margin-left: 0;
+  padding-left: 15px;
+  color: #000;
+  font-weight: 700;
+  border-bottom: 1px solid #dbdbdb;
+}
+.description-read.data-v-38c28a06 {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  padding: 10px 0;
+}
+.price-text.data-v-38c28a06 {
+  font-size: 14px;
+  color: #444444;
+  padding: 0px 0px 0px 3px;
+}
+.view-description-content.data-v-38c28a06 {
+  padding: 55px 0px 0px 0px;
+}
+.view-description-content .description-content.data-v-38c28a06 {
+  margin: 0px 15px 0px 15px;
+  border: 1px solid #efefef;
+}
+.view-description-content .content-item-title.data-v-38c28a06 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.view-description-content .content-item-title .item-title-line.data-v-38c28a06 {
+  width: 0px;
+  height: 20px;
+  margin: -1px 8px 0px 3px;
+  border: 1.5px solid #5296de;
+}
+

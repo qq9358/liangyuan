@@ -16,27 +16,28 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.booking.data-v-88f28a5c {
+.booking.data-v-338a84ed {
   padding: 10px 6px 70px;
   background-color: #c0c7cf;
   min-height: calc(100vh - 46px);
   box-sizing: border-box;
+  font-size: 14px;
 }
-.booking-mod.data-v-88f28a5c {
+.booking-mod.data-v-338a84ed {
   margin-bottom: 10px;
 }
-.booking-mod-hd.data-v-88f28a5c {
+.booking-mod-hd.data-v-338a84ed {
   padding: 10px 12px;
   border-radius: 5px 5px 0 0;
   background: #eff0f2;
 }
-.booking-mod-hd-title.data-v-88f28a5c {
+.booking-mod-hd-title.data-v-338a84ed {
   margin-right: 5px;
   font-size: 16px;
   line-height: 20px;
   color: #000;
 }
-.booking-mod-hd-tips.data-v-88f28a5c {
+.booking-mod-hd-tips.data-v-338a84ed {
   display: inline-block;
   vertical-align: middle;
   line-height: 18px;
@@ -44,31 +45,31 @@
   color: #999;
   word-break: break-all;
 }
-.booking-mod-hd-tips ._em.data-v-88f28a5c {
+.booking-mod-hd-tips ._em.data-v-338a84ed {
   color: #f40;
   font-style: normal;
   font-weight: 400;
 }
-.booking-mod-bd.data-v-88f28a5c {
+.booking-mod-bd.data-v-338a84ed {
   border-radius: 0 0 5px 5px;
   border-bottom: solid 1px #a3aab2;
   overflow: hidden;
   background: #fff;
 }
-.booking-mod-bd .van-cell.data-v-88f28a5c {
+.booking-mod-bd .van-cell.data-v-338a84ed {
   padding: 13px 15px;
 }
-.booking-mod-around.data-v-88f28a5c {
+.booking-mod-around.data-v-338a84ed {
   border-radius: 5px;
   background-color: #fff;
   padding: 15px;
 }
-.booking-mod-around ._h3.data-v-88f28a5c {
+.booking-mod-around ._h3.data-v-338a84ed {
   font-size: 16px;
   color: #333;
   font-weight: 700;
 }
-.booking-mod-around-label.data-v-88f28a5c {
+.booking-mod-around-label.data-v-338a84ed {
   margin-top: 6px;
   font-size: 12px;
   height: 20px;
@@ -77,85 +78,85 @@
   display: -webkit-flex;
   display: flex;
 }
-.booking-mod-around-label ._li.data-v-88f28a5c {
+.booking-mod-around-label ._li.data-v-338a84ed {
   float: left;
   margin-right: 14px;
   line-height: 20px;
 }
-.booking-mod-around-label ._li .icon.data-v-88f28a5c {
+.booking-mod-around-label ._li .icon.data-v-338a84ed {
   vertical-align: middle;
   margin-right: 2px;
 }
-.booking-mod-around-label ._li ._span.data-v-88f28a5c {
+.booking-mod-around-label ._li ._span.data-v-338a84ed {
   display: inline-block;
   vertical-align: middle;
 }
-.booking-mod-around-label .iconfont.data-v-88f28a5c {
+.booking-mod-around-label .iconfont.data-v-338a84ed {
   font-size: 13px;
 }
-.booking-mod-around-label .warning.data-v-88f28a5c {
+.booking-mod-around-label .warning.data-v-338a84ed {
   color: #ffae13;
 }
-.booking-mod-around-label .warning .iconfont.data-v-88f28a5c {
+.booking-mod-around-label .warning .iconfont.data-v-338a84ed {
   color: #ffae13;
 }
-.booking-mod-around-label .info.data-v-88f28a5c {
+.booking-mod-around-label .info.data-v-338a84ed {
   color: #999;
 }
-.booking-mod-around-label .info .iconfont.data-v-88f28a5c {
+.booking-mod-around-label .info .iconfont.data-v-338a84ed {
   color: #19a0f0;
 }
-.booking-mod-around-label .right.data-v-88f28a5c {
+.booking-mod-around-label .right.data-v-338a84ed {
   padding: 0px 0px 0px 15px;
 }
-.booking-mod-around-label .error.data-v-88f28a5c {
+.booking-mod-around-label .error.data-v-338a84ed {
   color: #ff2f39;
 }
-.booking-mod-around-label .error .iconfont.data-v-88f28a5c {
+.booking-mod-around-label .error .iconfont.data-v-338a84ed {
   color: #ff2f39;
 }
-.booking-mod-around-resinfo.data-v-88f28a5c {
+.booking-mod-around-resinfo.data-v-338a84ed {
   font-size: 12px;
   color: #19a0f0;
   line-height: 20px;
 }
-.booking-mod-around-limited.data-v-88f28a5c {
+.booking-mod-around-limited.data-v-338a84ed {
   font-size: 12px;
   color: #999;
   line-height: 20px;
 }
-.booking-mod-around-price.data-v-88f28a5c {
+.booking-mod-around-price.data-v-338a84ed {
   text-align: right;
   color: #f40;
   font-size: 21px;
 }
-.booking-mod-around-price ._span.data-v-88f28a5c {
+.booking-mod-around-price ._span.data-v-338a84ed {
   font-size: 15px;
 }
-.booking-mod-around-price ._i.data-v-88f28a5c {
+.booking-mod-around-price ._i.data-v-338a84ed {
   font-size: 21px;
   margin-right: 1px;
   line-height: 21px;
   font-style: normal;
   font-weight: 400;
 }
-.booking-mod-around-num .tui-numberbox.data-v-88f28a5c {
+.booking-mod-around-num .tui-numberbox.data-v-338a84ed {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
 }
-.booking-mod-around-num.data-v-88f28a5c .tui-numberbox__input {
+.booking-mod-around-num.data-v-338a84ed .tui-numberbox__input {
   margin: 0;
   height: 33px;
 }
-.booking-mod-around-tips.data-v-88f28a5c {
+.booking-mod-around-tips.data-v-338a84ed {
   margin: 5px -15px 0 -15px;
   padding: 10px 15px;
   background-color: #fff7e0;
   font-size: 12px;
   color: #481a03;
 }
-.booking-multi-item.data-v-88f28a5c {
+.booking-multi-item.data-v-338a84ed {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -166,15 +167,15 @@
   -webkit-align-items: center;
           align-items: center;
 }
-.booking-multi-item-auto.data-v-88f28a5c {
+.booking-multi-item-auto.data-v-338a84ed {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
           flex: 1;
 }
-.booking .changCi.data-v-88f28a5c .input .van-cell__title {
+.booking .changCi.data-v-338a84ed .input .van-cell__title {
   max-width: 40%;
 }
-.booking-tourist.data-v-88f28a5c {
+.booking-tourist.data-v-338a84ed {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -183,23 +184,23 @@
           align-items: center;
   margin-left: 15px;
 }
-.booking-tourist .van-cell__title.data-v-88f28a5c {
+.booking-tourist .van-cell__title.data-v-338a84ed {
   color: #999;
 }
-.booking-tourist .van-cell__value.data-v-88f28a5c {
+.booking-tourist .van-cell__value.data-v-338a84ed {
   line-height: 16px;
 }
-.booking-tourist .view.data-v-88f28a5c {
+.booking-tourist .view.data-v-338a84ed {
   color: #19a0f0;
 }
-.booking-tourist-error.data-v-88f28a5c {
+.booking-tourist-error.data-v-338a84ed {
   background-color: #fffdf2;
 }
-.booking-tourist-error .booking-tourist-item.data-v-88f28a5c,
-.booking-tourist-error .van-cell__title.data-v-88f28a5c {
+.booking-tourist-error .booking-tourist-item.data-v-338a84ed,
+.booking-tourist-error .van-cell__title.data-v-338a84ed {
   color: #ff2f39;
 }
-.booking-tourist-item.data-v-88f28a5c {
+.booking-tourist-item.data-v-338a84ed {
   display: inline-block;
   vertical-align: middle;
   width: 100%;
@@ -209,19 +210,19 @@
   white-space: nowrap;
   overflow: hidden;
 }
-.booking-tourist-edit.data-v-88f28a5c {
+.booking-tourist-edit.data-v-338a84ed {
   width: 100vw;
   height: 100vh;
   background-color: #c0c7cf;
 }
-.booking-tourist-edit-content.data-v-88f28a5c {
+.booking-tourist-edit-content.data-v-338a84ed {
   padding: 10px 6px;
   overflow-y: auto;
 }
-.booking-tourist-edit-btnbox.data-v-88f28a5c {
+.booking-tourist-edit-btnbox.data-v-338a84ed {
   padding: 10px;
 }
-.booking-tourist-edit-btnbox .van-button.data-v-88f28a5c {
+.booking-tourist-edit-btnbox .van-button.data-v-338a84ed {
   width: 100%;
   line-height: 44px;
   font-size: 18px;
@@ -232,25 +233,25 @@
   letter-spacing: 1px;
   border-radius: 5px;
 }
-.booking .top-radius.data-v-88f28a5c {
+.booking .top-radius.data-v-338a84ed {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
-.booking .bottom-radius.data-v-88f28a5c {
+.booking .bottom-radius.data-v-338a84ed {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-.booking .body-active.data-v-88f28a5c {
+.booking .body-active.data-v-338a84ed {
   bottom: 0;
 }
-.booking .body-active .view-book.data-v-88f28a5c {
+.booking .body-active .view-book.data-v-338a84ed {
   background-color: #fff;
 }
-.booking .input-group.data-v-88f28a5c {
+.booking .input-group.data-v-338a84ed {
   border-radius: 5px;
   overflow: hidden;
 }
-.booking .tui-numbox.data-v-88f28a5c {
+.booking .tui-numbox.data-v-338a84ed {
   width: 111px;
 }
 

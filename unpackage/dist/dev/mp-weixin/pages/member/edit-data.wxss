@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/**
+ * scss预处理 内置的常用样式变量
+ * 后期项目会考虑使用scss
+*/
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.view-regist-member .view-regist-input {
+  padding: 0px 5px 0px 5px;
+  background: #ffffff;
+  border-top: 1px solid #efefef;
+}
+.view-regist-member .view-regist-button {
+  padding: 30px 20px 0px 20px;
+}
+.view-regist-member .view-regist-explain {
+  text-align: right;
+  padding: 20px 15px 0px 0px;
+  font-size: 14px;
+}
+

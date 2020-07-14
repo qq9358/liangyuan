@@ -326,7 +326,7 @@ export default {
 		},
 		pay() {
 			uni.navigateTo({
-				url: '/pages/payment/wx-js-pay?listNo=' + this.listNo
+				url: '/pages/ticket/wx-js-pay?listNo=' + this.listNo
 			});
 		},
 		async refund() {
