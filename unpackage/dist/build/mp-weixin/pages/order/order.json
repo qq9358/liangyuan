@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我的订单",
+  "usingComponents": {
+    "custom-tabs": "/components/custom/custom-tabs/custom-tabs",
+    "custom-tab": "/components/custom/custom-tab/custom-tab",
+    "custom-no-data": "/components/custom/custom-no-data/custom-no-data"
+  }
+}

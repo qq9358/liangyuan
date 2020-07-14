@@ -1,0 +1,72 @@
+/**
+ * scss预处理 内置的常用样式变量
+ * 后期项目会考虑使用scss
+*/
+
+/* 颜色变量 */
+
+/* 行为相关颜色 */
+$tui-color-primary: #5677fc;
+$tui-color-success: #19be6b;
+$tui-color-warning: #ff7900;
+$tui-color-error: #EB0909;
+$tui-color-blue: #007AFF;
+$tui-color-black: #000000;
+$tui-color-white: #ffffff;
+$tui-color-pink:#f74d54;
+
+
+/* 文字基本颜色 */
+$tui-text-color:#333;//基本色
+$tui-text-color-inverse:#fff;//反色
+$tui-text-color-grey:#999;//辅助灰色，如加载更多的提示信息
+$tui-text-color-placeholder: #bfbfbf;
+$tui-text-color-disable:#c0c0c0;
+
+/* 背景颜色 */
+$tui-bg-color:#ffffff;
+$tui-bg-color-grey:#fafafa;
+$tui-bg-color-hover:#f1f1f1;//点击状态颜色
+$tui-bg-color-mask:rgba(0, 0, 0, 0.4);//遮罩颜色
+
+/* 边框颜色 */
+$tui-border-color:#eaeef1;
+
+/* 尺寸变量 */
+
+/* 文字尺寸 */
+$tui-font-size-sm:24rpx;
+$tui-font-size-base:28rpx;
+$tui-font-size-lg:32rpx;
+
+/* 图片尺寸 */
+$tui-img-size-sm:40rpx;
+$tui-img-size-base:52rpx;
+$tui-img-size-lg:80rpx;
+
+/* Border Radius */
+$tui-border-radius-sm: 4rpx;
+$tui-border-radius-base: 6rpx;
+$tui-border-radius-lg: 12rpx;
+$tui-border-radius-circle: 50%;
+
+/* 水平间距 */
+$tui-spacing-row-sm: 10rpx;
+$tui-spacing-row-base: 20rpx;
+$tui-spacing-row-lg: 30rpx;
+
+/* 垂直间距 */
+$tui-spacing-col-sm: 8rpx;
+$tui-spacing-col-base: 16rpx;
+$tui-spacing-col-lg: 24rpx;
+
+/* 透明度 */
+$tui-opacity-disabled: 0.3; // 组件禁用态的透明度
+
+/* 文章场景相关 */
+$tui-color-title: #2C405A; // 文章标题颜色
+$tui-font-size-title:40rpx;
+$tui-color-subtitle: #555555; // 二级标题颜色
+$tui-font-size-subtitle:36rpx;
+$tui-color-paragraph: #3F536E; // 文章段落颜色
+$tui-font-size-paragraph:30rpx;

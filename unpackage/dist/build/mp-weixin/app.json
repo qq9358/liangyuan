@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/ticket/buy-ticket",
+    "pages/order/order",
+    "pages/member/member-center",
+    "pages/member/my-integral",
+    "pages/member/bind-member",
+    "pages/member/regist-member",
+    "pages/member/my-card",
+    "pages/member/game-currency",
+    "pages/member/edit-data",
+    "pages/payment/wx-js-pay",
+    "pages/order/order-detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "不一样的星球",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#099fde",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/tabbar/home.png",
+        "selectedIconPath": "static/images/tabbar/home-blue.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "iconPath": "static/images/tabbar/cate.png",
+        "selectedIconPath": "static/images/tabbar/cate-blue.png",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/member/member-center",
+        "iconPath": "static/images/tabbar/user.png",
+        "selectedIconPath": "static/images/tabbar/user-blue.png",
+        "text": "我"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {}
+}

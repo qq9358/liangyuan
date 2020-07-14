@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/**
+ * scss预处理 内置的常用样式变量
+ * 后期项目会考虑使用scss
+*/
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.in-order.data-v-c20a8dfa {
+  background-color: #fff;
+  text-align: center;
+  padding: 15px 15px;
+}
+.in-order-countdown.data-v-c20a8dfa {
+  font-size: 13px;
+  color: #999;
+  line-height: 1;
+}
+.in-order-fee.data-v-c20a8dfa {
+  margin-top: 10px;
+  line-height: 1;
+  font-size: 30px;
+  letter-spacing: -0.44px;
+}
+.in-order-fee-text.data-v-c20a8dfa {
+  font-size: 20px;
+  margin-right: 8px;
+}
+.in-order-fee text.data-v-c20a8dfa {
+  font-weight: 700;
+}
+.in-order-title.data-v-c20a8dfa {
+  margin-top: 3px;
+  font-size: 11px;
+  color: #999;
+}
+.in-pay-method.data-v-c20a8dfa {
+  margin: 15px 0;
+  background-color: #fff;
+}
+.in-pay-method-pay-type.data-v-c20a8dfa {
+  padding: 0 20px;
+  height: 70px;
+  line-height: 70px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.in-pay-method-pay-type view.data-v-c20a8dfa {
+  vertical-align: middle;
+  font-size: 25px;
+  margin-right: 20px;
+  color: #09bb07;
+}
+.in-pay-method-pay-type text.data-v-c20a8dfa {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 18px;
+  font-weight: 600;
+}
+.in-button.data-v-c20a8dfa {
+  padding: 0 15px;
+}
+.in-button button.data-v-c20a8dfa {
+  border-radius: 5px;
+  height: 50px;
+  line-height: 39px;
+  font-size: 16px;
+  background: #19a0f0;
+}
+
