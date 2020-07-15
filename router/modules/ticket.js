@@ -4,14 +4,14 @@ const ticket = [{
 	meta: {
 		title: '购买选项'
 	}
-},{
+}, {
 	path: '/pages/ticket/ticket-type',
 	name: 'ticket-type',
 	meta: {
 		title: '商品列表'
 	}
-},{
-	path: '/pages/ticket/wx-js-pay',
+}, {
+	path: '/pages/payment/wx-js-pay',
 	name: 'wx-js-pay',
 	meta: {
 		title: '微信支付'

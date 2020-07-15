@@ -1,4 +1,4 @@
-import settingService from "./../../services/settingService.js";
+import settingService from "@/services/settingService.js";
 import appConsts from "./../consts.js";
 
 export default {

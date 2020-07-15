@@ -2,18 +2,34 @@
   "pages": [
     "pages/index/index",
     "pages/index/order",
-    "pages/index/member-center",
-    "pages/member/my-integral",
-    "pages/member/bind-member",
-    "pages/member/regist-member",
-    "pages/member/my-card",
-    "pages/member/game-currency",
-    "pages/member/edit-data",
-    "pages/order/order-detail",
-    "pages/ticket/wx-js-pay",
-    "pages/ticket/buy-ticket"
+    "pages/index/member-center"
   ],
-  "subPackages": [],
+  "subPackages": [
+    {
+      "root": "pagesMember",
+      "pages": [
+        "my-integral",
+        "bind-member",
+        "regist-member",
+        "my-card",
+        "game-currency",
+        "edit-data"
+      ]
+    },
+    {
+      "root": "pagesOrder",
+      "pages": [
+        "order-detail"
+      ]
+    },
+    {
+      "root": "pagesTicket",
+      "pages": [
+        "wx-js-pay",
+        "buy-ticket"
+      ]
+    }
+  ],
   "window": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "不一样的星球",
@@ -47,5 +63,6 @@
     ]
   },
   "permission": {},
-  "usingComponents": {}
+  "usingComponents": {},
+  "sitemapLocation": "sitemap6.json"
 }

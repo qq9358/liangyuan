@@ -1,17 +1,17 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/index/order",
-    "pages/index/member-center",
+    "pages/ticket/buy-ticket",
+    "pages/order/order",
+    "pages/member/member-center",
     "pages/member/my-integral",
     "pages/member/bind-member",
     "pages/member/regist-member",
     "pages/member/my-card",
     "pages/member/game-currency",
     "pages/member/edit-data",
-    "pages/order/order-detail",
-    "pages/ticket/wx-js-pay",
-    "pages/ticket/buy-ticket"
+    "pages/payment/wx-js-pay",
+    "pages/order/order-detail"
   ],
   "subPackages": [],
   "window": {
@@ -33,13 +33,13 @@
         "text": "主页"
       },
       {
-        "pagePath": "pages/index/order",
+        "pagePath": "pages/order/order",
         "iconPath": "static/images/tabbar/cate.png",
         "selectedIconPath": "static/images/tabbar/cate-blue.png",
         "text": "订单"
       },
       {
-        "pagePath": "pages/index/member-center",
+        "pagePath": "pages/member/member-center",
         "iconPath": "static/images/tabbar/user.png",
         "selectedIconPath": "static/images/tabbar/user-blue.png",
         "text": "我"

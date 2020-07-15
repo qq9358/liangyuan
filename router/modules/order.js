@@ -4,13 +4,13 @@ const order = [{
 	meta: {
 		title: '订单详情'
 	}
-}, {
+},{
 	path: '/pages/order/refund-detail',
 	name: 'refund-detail',
 	meta: {
 		title: '退款详情'
 	}
-}, {
+},{
 	path: '/pages/order/refund-ticket',
 	name: 'refund-ticket',
 	meta: {

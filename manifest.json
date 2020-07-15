@@ -58,8 +58,8 @@
     "h5" : {
         "title" : "梁园",
         "router" : {
-            "mode" : "history",
-            "base" : "/login/"
+            "mode" : "hash",
+            "base" : ""
         },
         "sdkConfigs" : {
             "maps" : {
@@ -68,7 +68,7 @@
                 }
             }
         },
-        "template" : "",
+        "template" : "template.h5.html",
         "permission" : {
             "scope.userLocation" : {
                 "desc" : "你的位置信息将用于小程序位置接口的效果展示"

@@ -1,5 +1,5 @@
 import appConsts from "./../consts.js";
-import orderService from "./../../services/orderService.js";
+import orderService from "@/services/orderService.js";
 
 export default {
 	namespaced: true,

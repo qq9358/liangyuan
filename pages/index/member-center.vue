@@ -50,8 +50,8 @@ export default {
 	},
 	methods: {
 		onMyCard() {
-			uni.navigateTo({
-				url: '/pages/member/my-card'
+			uni.reLaunch({
+				url: '/pages/index/index?code=2134asdasd'
 			});
 		},
 		onMyIntegral() {

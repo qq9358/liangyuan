@@ -25,8 +25,8 @@
 		<view class="scenic-ext" @click="onIntroduction">
 			<view>
 				<view class="scenic-ext-title">
-					<span v-if="scenic.openText"></span>
-					<span>{{ testI18n }}景区特色</span>
+					<span v-if="scenic.openText">开放时间</span>
+					<span>{{i18nText}}景区特色</span>
 					<span>景区简介</span>
 				</view>
 				<view v-if="scenic.openText" class="scenic-ext-word">{{ scenic.openText }}</view>
@@ -81,11 +81,12 @@
 <script>
 import dayjs from 'dayjs';
 import { mapState, mapMutations } from 'vuex';
-import { mobileMixin } from './../../mixins/mobileMixin.js';
-import ticketTypeService from './../../services/ticketTypeService.js';
-import scenicService from './../../services/scenicService.js';
-import settingService from './../../services/settingService.js';
+import { mobileMixin } from '@/mixins/mobileMixin.js';
+import ticketTypeService from '@/services/ticketTypeService.js';
+import scenicService from '@/services/scenicService.js';
+import settingService from '@/services/settingService.js';
 import memberService from '@/services/memberService.js';
+import toastHelper from '@/utils/toastHelper.js';
 
 const today = dayjs();
 const tomorrow = dayjs().addDays(1);
@@ -95,6 +96,9 @@ export default {
 		publicSaleFlag: {
 			type: [Boolean, String],
 			default: true
+		},
+		code: {
+			type: String
 		}
 	},
 	data() {
@@ -160,15 +164,17 @@ export default {
 		};
 	},
 	computed: {
-		testI18n() {
+		i18nText() {
 			return this.$t('tabBar.index0');
 		}
 	},
-	async onLoad() {
-		this.$i18n.locale = 'en';
+	async onLoad(option) {
+		console.log(option);
+		toastHelper.noneToast(option.code);
+		// this.$i18n.locale = 'en';
 		/* #ifndef MP */
 		await memberService.loginFromWeChatAsync({
-			code: '',
+			code: option.code,
 			state: ''
 		});
 		/* #endif */
@@ -248,8 +254,8 @@ export default {
 			});
 		},
 		onBuy(ticketType) {
-			this.selectedTicketType = ticketType;
-			if (!this.memberSelect) {
+			this.selectedTicketType = ticketType
+			if(!this.memberSelect){
 				this.showMemberSelect = true;
 			} else {
 				this.toBuy();
@@ -296,15 +302,15 @@ export default {
 				url: '/pages/ticket/ticket-type'
 			});
 		},
-		onDescriptionClose() {
+		onDescriptionClose(){
 			this.showDescription = false;
 		},
-		onMemberSelectClose() {
+		onMemberSelectClose(){
 			this.showMemberSelect = false;
 			this.memberSelect = true;
 			this.toBuy();
 		},
-		toBuy() {
+		toBuy(){
 			if (this.selectedTicketType.shouldReadDescription) {
 				this.onShowDescription(this.selectedTicketType);
 			} else {
